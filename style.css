@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.content {
+  text-align: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  text-align: center;
+  background-color: #cc1294;
+  color: rgb(212, 207, 207);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
